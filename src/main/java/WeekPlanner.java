@@ -58,49 +58,49 @@ public class WeekPlanner {
 
                 case "change monday":
                 case "reschedule monday":
-                    System.out.println(" Write new task for " + weekDays[0][0]);
+                    System.out.println(" Write new task for " + weekDays[0][0] + ":");
                     String newTask1 = sc.nextLine();
                     weekDays[0][1] = newTask1;
                     continue;
 
                 case "change tuesday":
                 case "reschedule tuesday":
-                    System.out.println(" Write new task for " + weekDays[1][0]);
+                    System.out.println(" Write new task for " + weekDays[1][0] + ":");
                     String newTask2 = sc.nextLine();
                     weekDays[0][1] = newTask2;
                     continue;
 
                 case "change wednesday":
                 case "reschedule wednesday":
-                    System.out.println(" Write new task for " + weekDays[2][0]);
+                    System.out.println(" Write new task for " + weekDays[2][0] + ":");
                     String newTask3 = sc.nextLine();
                     weekDays[0][1] = newTask3;
                     continue;
 
                 case "change thursday":
                 case "reschedule thursday":
-                    System.out.println(" Write new task for " + weekDays[3][0]);
+                    System.out.println(" Write new task for " + weekDays[3][0] + ":");
                     String newTask4 = sc.nextLine();
                     weekDays[0][1] = newTask4;
                     continue;
 
                 case "change friday":
                 case "reschedule friday":
-                    System.out.println(" Write new task for " + weekDays[4][0]);
+                    System.out.println(" Write new task for " + weekDays[4][0] + ":");
                     String newTask5 = sc.nextLine();
                     weekDays[0][1] = newTask5;
                     continue;
 
                 case "change saturday":
                 case "reschedule saturday":
-                    System.out.println(" Write new task for " + weekDays[5][0]);
+                    System.out.println(" Write new task for " + weekDays[5][0] + ":");
                     String newTask6 = sc.nextLine();
                     weekDays[0][1] = newTask6;
                     continue;
 
                 case "change sunday":
                 case "reschedule sunday":
-                    System.out.println(" Write new task for " + weekDays[6][0]);
+                    System.out.println(" Write new task for " + weekDays[6][0] + ":");
                     String newTask7 = sc.nextLine();
                     weekDays[0][1] = newTask7;
                     continue;
